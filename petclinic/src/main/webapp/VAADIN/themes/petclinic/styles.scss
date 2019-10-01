@@ -1,0 +1,5 @@
+@import "petclinic.scss";
+
+.petclinic {
+  @include petclinic;
+}

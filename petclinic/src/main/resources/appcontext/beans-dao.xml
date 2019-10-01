@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd"
+	default-lazy-init="true">
+	
+	<!-- 
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="${dataSource.driverClassName}"/>
+		<property name="url" value="${dataSource.url}"/>
+		<property name="username" value="${dataSource.username}"/>
+		<property name="password" value="${dataSource.password}"/>
+	</bean>
+	
+	
+
+	<bean id="ownerDao" class="com.javaegitimleri.petclinic.dao.memory.OwnerDaoInMemoryImpl"/>
+	
+	<bean id="ownerDao2" class="com.javaegitimleri.petclinic.dao.memory.OwnerDaoInMemoryImpl"/>
+	
+	<bean id="petDao" class="com.javaegitimleri.petclinic.dao.memory.PetDaoInMemoryImpl" lazy-init="false"/>
+	
+	<bean id="petTypeDao" class="com.javaegitimleri.petclinic.dao.memory.PetTypeDaoInMemoryImpl"/>
+	
+	<bean id="visitDao" class="com.javaegitimleri.petclinic.dao.memory.VisitDaoInMemoryImpl"/>
+	 -->
+
+</beans>
